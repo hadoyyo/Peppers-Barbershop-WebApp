@@ -1,0 +1,97 @@
+.nav-tabs .nav-link.active {
+    background-color: rgb(230, 29, 35);
+    color: black !important;
+    border-color: rgb(230, 29, 35); 
+}
+
+.nav-tabs .nav-link {
+    color: white;
+    border: 1px solid transparent;
+}
+
+.nav-tabs .nav-link:hover {
+    border-color: rgb(230, 29, 35);
+}
+
+.nav-tabs {
+    border-bottom: 2px solid rgb(230, 29, 35);
+}
+
+.form-label 
+{
+    color: rgb(230, 29, 35);
+}
+
+.form-select, .form-control
+{
+    color: rgb(230, 29, 35);
+    background-color: black;
+    border: 2px solid rgb(230, 29, 35);
+}
+
+.form-select:focus, .form-control:focus {
+    outline: none;
+    background-color: black;
+    color: rgb(230, 29, 35);
+    border-color: rgb(230, 29, 35);
+    box-shadow: 0 0 0 0.2rem rgba(230, 29, 35, 0.25);
+}
+
+@media (max-width: 360px) {
+.anti-navbar
+{
+padding-top: 5rem;
+}
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+color: rgb(230, 29, 35);
+filter: invert(35%) sepia(91%) saturate(5235%) hue-rotate(356deg) brightness(94%) contrast(88%);
+cursor: pointer;
+}
+
+.appointment-item {
+position: relative;
+padding: 10px;
+}
+
+.appointment-status {
+position: absolute;
+bottom: 40px;
+right: 10px;
+background-color: rgb(108, 189, 69);
+color: black;
+padding: 5px 10px;
+border-radius: 5px;
+font-weight: bold;
+}
+
+.appointment-status[data-status="0"] {
+background-color: #ffc107;
+}
+
+.appointment-status[data-status="2"] {
+background-color: rgb(230, 29, 35);
+}
+
+.appointment-status[data-status="3"] {
+background-color: rgb(230, 29, 35);
+}
+
+.appointment-buttons {
+display: flex;
+flex-direction: column;
+gap: 7px;
+}
+
+
+@media (max-width: 768px) {
+.appointment-status {
+position: static;
+text-align: center;
+}
+
+.appointment-buttons {
+flex-direction: row;
+}
+}

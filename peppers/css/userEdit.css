@@ -1,0 +1,49 @@
+.form-control {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: black;
+    color: rgb(230, 29, 35);
+    border: 2px solid rgb(230, 29, 35);
+    border-radius: 4px;
+    line-height: 1.5;
+    padding-right: 2rem;
+}
+
+.form-control:focus {
+    outline: none;
+    background-color: black;
+    color: rgb(230, 29, 35);
+    border-color: rgb(230, 29, 35);
+    box-shadow: 0 0 0 0.2rem rgba(230, 29, 35, 0.25);
+}
+
+label {
+    color: rgb(230, 29, 35);
+}
+
+input[type="text"], 
+input[type="password"] {
+    background-color: black;
+    color: rgb(230, 29, 35);
+    border: 2px solid rgb(230, 29, 35);
+}
+
+input:focus {
+    outline: none;
+    background-color: black;
+    color: rgb(230, 29, 35);
+    border-color: rgb(230, 29, 35);
+    box-shadow: 0 0 0 0.2rem rgba(230, 29, 35, 0.25);
+}
+
+button {
+    background-color: black;
+    color: rgb(230, 29, 35);
+    border: 1px solid rgb(230, 29, 35);
+}
+
+button:hover {
+    background-color: rgb(230, 29, 35);
+    color: black;
+}
