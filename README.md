@@ -1,74 +1,63 @@
-## Projekt zaliczeniowy z laboratorium "Programowanie aplikacji internetowych"
+# Peppers Barber Shop - Web Application
 
-## Tematyka projektu: Aplikacja internetowa do obsługi salonu barberskiego
+![Barber Shop](https://img.icons8.com/color/96/000000/barber.png)
 
-## Autor: Hubert Jędruchniewicz
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Test Accounts](#test-accounts)
+- [License](#license)
 
-## Funkcjonalności:
+## Project Overview
+**Peppers** is a comprehensive web application designed for modern barber shops to manage appointments, clients, and barbers efficiently. The system provides different interfaces for clients, barbers, and administrators with role-specific functionalities.
 
-Użytkownik niezalogowany:
-- rejestracja konta klienta
-- logowanie (Klient, Barber, Administrator)
+## Features
 
-Użytkownik zalogowany:
-- edytowanie danych osobowych
-- usunięcie konta
+### Client Features
+- 📝 Account registration and profile management
+- 🗓️ Appointment scheduling with real-time availability
+- 🔍 View appointment history and upcoming visits
+- ✏️ Modify/cancel appointments (with restrictions)
+- 🔔 Real-time status notifications
 
-Klient:
-- umawianie wizyt (automatyczne aktualizowanie dostępnych godzin dla danego barbera)
-- edytowanie szczegółów wizyt*
-- anulowanie wizyt*
-- przeglądanie wizyt nadchodzących i zakończonych
-- automatyczne aktualizacje statusów wizyt ("Oczekuje na potwierdzenie", "Potwierdzona", "W trakcie", "Zakończona", "Anulowana", "Odrzucona przez barbera")
+### Barber Features
+- 👨‍💻 Dashboard with appointment overview
+- ✅ Accept/reject appointment requests
+- 🕒 Time slot management
+- 📊 Daily/weekly schedule views
+- 🚫 Cancellation handling
 
-* Dostępne jeżeli do wizyty pozostało więcej niż 30 minut
+### Admin Features
+- 👥 User management (CRUD operations)
+- ⚙️ System configuration
+- 📈 Reporting and analytics
+- 🔄 Database management
 
-Barber:
-- przeglądanie wizyt do akceptacji, nadchodzących i zakończonych
-- filtrowanie nadchodzących wizyt ("Wszystkie", "Dziś", "Tydzień")
-- akceptowanie, odrzucanie wizyt
-- anulowanie wizyt**
-- automatyczne aktualizacje statusów wizyt ("Oczekuje na potwierdzenie", "Potwierdzona", "W trakcie", "Zakończona", "Anulowana", "Odrzucona przez barbera")
-
-** Dostępne aż do momentu zakończenia wizyty (np. w przypadku gdyby klient nie przyszedł)
-
-Administrator:
-
-- zarządzanie użytkownikami aplikacji (dodawanie, edytowanie, usuwanie)***
-- zarządzanie wizytami użytkowników (edytowanie szczegółów, usuwanie)
-- filtrowanie użytkowników i wizyt
-- sortowanie użytkowników i wizyt
-
-*** Administrator może również dodawać nowych barberów i administratorów (możliwość umawiania wizyt u nowo dodanego barbera zostanie automatycznie dodana)
-
-## Narzędzia i technologie
-- strona serwera: PHP, JavaScript
-- baza danych: MySQL
-- strona klienta: Bootstrap, AOS
-
-## Wymagania
-
-Wersje programów wykorzystane do tworzenia aplikacji (aplikacja nie została przetestowana z kompatybilnością wcześniejszych wersji):
-- XAMPP v3.3.0 (MySQL Database, APACHE Web Server)
+## Technologies
+**Backend:**
 - PHP 8.2.12
+- MySQL
+- Apache
+
+**Frontend:**
 - Bootstrap 5.0
+- JavaScript
+- AOS (Animate On Scroll)
 
-## Uruchomienie
-1. Folder projektowy `peppers` należy umieścić w `XAMPP\htdocs`
-2. W panelu XAMPP włączyć MySQL Database oraz Apache Web Server
-3. W przeglądarce pod adresem `localhost/phpmyadmin/` zaimportować bazę danych `peppers_database.sql`
-4. Uruchomić aplikację w przeglądarce pod adresem: `localhost/peppers/index.php`
+**Development:**
+- XAMPP v3.3.0
 
-## Konta testowe
+## Installation
 
-Klient:
-	-login: klient1
-	-hasło: klient123
+### Prerequisites
+- XAMPP installed
+- PHP 8.2+
+- MySQL
 
-Barber:
-	-login: barber1
-	-hasło: barber1
-
-Administrator:
-	-login: admin1
-	-hasło: admin123 zrób ten plik readme bardziej profesjonalny
+### Setup Instructions
+1. Clone repository to `htdocs` folder:
+   ```bash
+   git clone [repository-url] peppers
