@@ -104,4 +104,6 @@ Software versions used for development (**compatibility with earlier versions ha
 ### Administrator
 ![Screenshot](./ss/ss8.png)
 ### Mobile Device
-![Screenshot](./ss/ss9.jpg){: style="width:49%; display:inline"} ![Screenshot](./ss/ss10.jpg){: style="width:49%; display:inline"}
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![Screenshot](./ss/ss9.png)  |  ![Screenshot](./ss/ss10.png)
