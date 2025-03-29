@@ -1,4 +1,4 @@
-# Peppers Barber Shop - Web Application
+# Pepper's Barber Shop - Web Application
 
 ![Peppers Barber Shop](./peppers/img/logo.png)
 
@@ -12,7 +12,7 @@
 - 📸 [Screenshots](#screenshots)
 
 ## Project Overview
-**Peppers** is a comprehensive web application designed for modern barber shops to manage appointments, clients, and barbers efficiently. The system provides different interfaces for clients, barbers, and administrators with role-specific functionalities. **Pepper's Barbershop web application is only available in Polish language version!**
+**Pepper's** is a comprehensive web application designed for modern barber shops to manage appointments, clients, and barbers efficiently. The system provides different interfaces for clients, barbers, and administrators with role-specific functionalities. **Pepper's Barbershop web application is only available in Polish language version!**
 
 ## Features
 
