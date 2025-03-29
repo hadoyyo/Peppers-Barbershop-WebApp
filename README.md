@@ -104,7 +104,4 @@ Software versions used for development (**compatibility with earlier versions ha
 ### Administrator
 ![Screenshot](./ss/ss8.png)
 ### Mobile Device
-| ![Screenshot 1](./ss/ss9.jpg) | ![Screenshot 2](./ss/ss10.jpg) |
-|-------------------------------|-------------------------------|
-
 <img src="./ss/ss9.jpg" width="49%"/> <img src="./ss/ss10.jpg" width="49%"/>
