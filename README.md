@@ -1,40 +1,53 @@
 # Peppers Barber Shop - Web Application
 
-![Barber Shop](https://img.icons8.com/color/96/000000/barber.png)
+![Peppers Barber Shop](./peppers/img/logo.png)
 
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Features](#features)
 - [Technologies](#technologies)
-- [Installation](#installation)
-- [Usage](#usage)
+- [Requirements](#requirements)
+- [Setup Instructions](#setup-instructions)
 - [Test Accounts](#test-accounts)
-- [License](#license)
 
 ## Project Overview
-**Peppers** is a comprehensive web application designed for modern barber shops to manage appointments, clients, and barbers efficiently. The system provides different interfaces for clients, barbers, and administrators with role-specific functionalities.
+**Peppers** is a comprehensive web application designed for modern barber shops to manage appointments, clients, and barbers efficiently. The system provides different interfaces for clients, barbers, and administrators with role-specific functionalities. **Pepper's Barbershop web application is only available in Polish language version!**
 
 ## Features
 
-### Client Features
-- 📝 Account registration and profile management
-- 🗓️ Appointment scheduling with real-time availability
-- 🔍 View appointment history and upcoming visits
-- ✏️ Modify/cancel appointments (with restrictions)
-- 🔔 Real-time status notifications
+### Unauthenticated User
+- Client account registration
+- Login (Client, Barber, Administrator)
 
-### Barber Features
-- 👨‍💻 Dashboard with appointment overview
-- ✅ Accept/reject appointment requests
-- 🕒 Time slot management
-- 📊 Daily/weekly schedule views
-- 🚫 Cancellation handling
+### Authenticated User
+- Editing personal data
+- Account deletion
 
-### Admin Features
-- 👥 User management (CRUD operations)
-- ⚙️ System configuration
-- 📈 Reporting and analytics
-- 🔄 Database management
+### Client
+- Booking appointments (automatic updates of available time slots for selected barbers)
+- Editing appointment details*
+- Canceling appointments*
+- Viewing upcoming and past appointments
+- Automatic appointment status updates ("Pending Confirmation", "Confirmed", "In Progress", "Completed", "Canceled", "Rejected by Barber")
+
+*Available if the appointment is more than 30 minutes away
+
+### Barber
+- Viewing appointments requiring approval, upcoming, and past appointments
+- Filtering upcoming appointments ("All", "Today", "This Week")
+- Accepting or rejecting appointments
+- Canceling appointments**
+- Automatic appointment status updates ("Pending Confirmation", "Confirmed", "In Progress", "Completed", "Canceled", "Rejected by Barber")
+
+**Available until the appointment is completed (e.g., if the client does not show up)
+
+### Administrator
+- Managing application users (adding, editing, deleting)***
+- Managing user appointments (editing details, deleting)
+- Filtering users and appointments
+- Sorting users and appointments
+
+***The administrator can also add new barbers and administrators (appointment booking for newly added barbers will be automatically enabled)
 
 ## Technologies
 **Backend:**
@@ -45,19 +58,32 @@
 **Frontend:**
 - Bootstrap 5.0
 - JavaScript
-- AOS (Animate On Scroll)
+- AOS
 
-**Development:**
-- XAMPP v3.3.0
+## Requirements
+Software versions used for development (compatibility with earlier versions has not been tested):
+- XAMPP v3.3.0 (MySQL Database, Apache Web Server)
+- PHP 8.2.12
+- Bootstrap 5.0
 
-## Installation
+## Setup Instructions
 
-### Prerequisites
-- XAMPP installed
-- PHP 8.2+
-- MySQL
+1. Place the project folder `peppers` in `XAMPP\htdocs`.
+2. In the XAMPP control panel, start **MySQL Database** and **Apache Web Server**.
+3. In your browser, go to `localhost/phpmyadmin/` and import the database `peppers_database.sql`.
+4. Launch the application in your browser at: `localhost/peppers/index.php`.
 
-### Setup Instructions
-1. Clone repository to `htdocs` folder:
-   ```bash
-   git clone [repository-url] peppers
+## Test Accounts
+
+### Client
+- Login: `klient1`
+- Password: `klient123`
+
+### Barber
+- Login: `barber1`
+- Password: `barber1`
+
+### Administrator
+
+- Login: `admin1`
+- Password: `admin123`
