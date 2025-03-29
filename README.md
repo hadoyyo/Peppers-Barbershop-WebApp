@@ -5,12 +5,11 @@
 ## Table of Contents
 - 🚀 [Project Overview](#project-overview)
 - ✨ [Features](#features)
-- 📸 [Screenshots](#screenshots)
 - 💻 [Technologies](#technologies)
 - 📋[Requirements](#requirements)
 - 🛠️ [Setup Instructions](#setup-instructions)
 - 👤 [Test Accounts](#test-accounts)
-- 
+- 📸 [Screenshots](#screenshots)
 
 ## Project Overview
 **Peppers** is a comprehensive web application designed for modern barber shops to manage appointments, clients, and barbers efficiently. The system provides different interfaces for clients, barbers, and administrators with role-specific functionalities. **Pepper's Barbershop web application is only available in Polish language version!**
@@ -51,18 +50,6 @@
 
 ***The administrator can also add new barbers and administrators (appointment booking for newly added barbers will be automatically enabled)
 
-## Screenshots
-
-![Screenshot](./ss/ss1.png)
-![Screenshot](./ss/ss2.png)
-![Screenshot](./ss/ss3.png)
-![Screenshot](./ss/ss4.png)
-![Screenshot](./ss/ss5.png)
-![Screenshot](./ss/ss6.png)
-![Screenshot](./ss/ss7.png)
-![Screenshot](./ss/ss8.png)
-
-
 ## Technologies
 **Backend:**
 - PHP 8.2.12
@@ -101,3 +88,18 @@ Software versions used for development (**compatibility with earlier versions ha
 
 - Login: `admin1`
 - Password: `admin123`
+
+## Screenshots
+
+**Unauthenticated User**
+![Screenshot](./ss/ss1.png)
+![Screenshot](./ss/ss2.png)
+![Screenshot](./ss/ss3.png)
+![Screenshot](./ss/ss4.png)
+**Client**
+![Screenshot](./ss/ss5.png)
+![Screenshot](./ss/ss6.png)
+**Barber**
+![Screenshot](./ss/ss7.png)
+**Administrator**
+![Screenshot](./ss/ss8.png)
