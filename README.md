@@ -106,3 +106,5 @@ Software versions used for development (**compatibility with earlier versions ha
 ### Mobile Device
 | ![Screenshot 1](./ss/ss9.jpg) | ![Screenshot 2](./ss/ss10.jpg) |
 |-------------------------------|-------------------------------|
+
+![alt-text-1](./ss/ss9.jpg "title-1") ![alt-text-2](./ss/ss10.jpg "title-2")
