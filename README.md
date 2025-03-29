@@ -61,7 +61,7 @@
 - AOS
 
 ## Requirements
-Software versions used for development (compatibility with earlier versions has not been tested):
+Software versions used for development (**compatibility with earlier versions has not been tested**):
 - XAMPP v3.3.0 (MySQL Database, Apache Web Server)
 - PHP 8.2.12
 - Bootstrap 5.0
