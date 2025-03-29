@@ -107,4 +107,7 @@ Software versions used for development (**compatibility with earlier versions ha
 | ![Screenshot 1](./ss/ss9.jpg) | ![Screenshot 2](./ss/ss10.jpg) |
 |-------------------------------|-------------------------------|
 
-![alt-text-1](./ss/ss9.jpg "title-1") ![alt-text-2](./ss/ss10.jpg "title-2")
+<p float="left">
+  <img src="./ss/ss9.jpg" width="100" />
+  <img src="./ss/ss10.jpg" width="100" />
+</p>
