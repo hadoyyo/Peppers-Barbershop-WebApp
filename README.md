@@ -91,15 +91,15 @@ Software versions used for development (**compatibility with earlier versions ha
 
 ## Screenshots
 
-**Unauthenticated User**
+### Unauthenticated User
 ![Screenshot](./ss/ss1.png)
 ![Screenshot](./ss/ss2.png)
 ![Screenshot](./ss/ss3.png)
 ![Screenshot](./ss/ss4.png)
-**Client**
+### Client
 ![Screenshot](./ss/ss5.png)
 ![Screenshot](./ss/ss6.png)
-**Barber**
+### Barber
 ![Screenshot](./ss/ss7.png)
-**Administrator**
+### Administrator
 ![Screenshot](./ss/ss8.png)
