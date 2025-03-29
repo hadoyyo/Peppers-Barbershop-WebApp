@@ -20,7 +20,7 @@
 - 📝 Client account registration
 - 🔑 Login (Client, Barber, Administrator)
 
-**Authenticated User**
+**All Authenticated Users**
 - ✏️ Editing personal data
 - 🗑️ Account deletion
 
