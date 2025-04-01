@@ -51,12 +51,12 @@
 ***The administrator can also add new barbers and administrators (appointment booking for newly added barbers will be automatically enabled)
 
 ## Technologies
-**Backend:**
+**Backend**
 - PHP 8.2.12
 - MySQL
 - Apache
 
-**Frontend:**
+**Frontend**
 - Bootstrap 5.0
 - HTML
 - JavaScript
