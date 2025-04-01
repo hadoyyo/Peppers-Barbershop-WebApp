@@ -58,6 +58,7 @@
 
 **Frontend:**
 - Bootstrap 5.0
+- HTML
 - JavaScript
 - AOS
 
