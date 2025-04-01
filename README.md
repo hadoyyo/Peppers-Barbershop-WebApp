@@ -52,12 +52,12 @@
 
 ## Technologies
 **Backend**
-- PHP 8.2.12
+- PHP
 - MySQL
 - Apache
 
 **Frontend**
-- Bootstrap 5.0
+- Bootstrap
 - HTML
 - JavaScript
 - AOS
