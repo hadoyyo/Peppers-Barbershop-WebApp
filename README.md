@@ -50,6 +50,11 @@
 
 ***The administrator can also add new barbers and administrators (appointment booking for newly added barbers will be automatically enabled)
 
+**Other features**
+
+🎨 Original, distinctive visual style
+📱 Full responsiveness
+
 ## Technologies
 **Backend**
 - PHP
