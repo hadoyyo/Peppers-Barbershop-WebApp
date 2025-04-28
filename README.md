@@ -12,7 +12,9 @@
 - 📸 [Screenshots](#screenshots)
 
 ## Project Overview
-**Pepper's** is a comprehensive web application designed for modern barber shops to manage appointments, clients, and barbers efficiently. The system provides different interfaces for clients, barbers, and administrators with role-specific functionalities. **Pepper's Barbershop web application is only available in Polish language version!**
+**Pepper's** is a comprehensive web application designed for modern barber shops to manage appointments, clients, and barbers efficiently. The system provides different interfaces for clients, barbers, and administrators with role-specific functionalities. 
+> [!NOTE]  
+> Pepper's Barbershop web application is only available in Polish language version!
 
 ## Features
 
@@ -67,10 +69,12 @@
 - AOS
 
 ## Requirements
-Software versions used for development (**compatibility with earlier versions has not been tested**):
+Software versions used for development:
 - XAMPP v3.3.0 (MySQL Database, Apache Web Server)
 - PHP 8.2.12
 - Bootstrap 5.0
+> [!WARNING]  
+> Compatibility with earlier versions has not been tested.
 
 ## Setup Instructions
 
